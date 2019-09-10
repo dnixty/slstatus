@@ -66,6 +66,6 @@ static const struct arg args[] = {
   { disk_free, " %.5s GiB | ", "/" },
   { run_command, "V: %4s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print %2 }' | head -n1" },
   { battery_state, "%s ", "BAT" },
-  { battery_perc, "%3s%% | ", "BAT" }
+  { battery_perc, "%3s%% | ", "BAT" },
 	{ datetime, "%s",           "%F %T" },
 };
